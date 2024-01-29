@@ -1,9 +1,9 @@
  # C++ Movie Recommender
  
- Authors: \[Vasan Insixiengmay](https://github.com/VasanIns)\
-          \[Jonathan Jin](https://github.com/jjin1407)\
-          \[Michael Camacho](https://github.com/Mcamacho457)\
-          \[Akshay Jayasinghe](https://github.com/AkJay1722)\
+ Authors: \<[Vasan Insixiengmay](https://github.com/VasanIns)\>
+          \<[Jonathan Jin](https://github.com/jjin1407)\>
+          \<[Michael Camacho](https://github.com/Mcamacho457)\>
+          \<[Akshay Jayasinghe](https://github.com/AkJay1722)\>
     
 ## Project Description
 
