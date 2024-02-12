@@ -35,9 +35,9 @@
 > Draw a diagram illustrating how the user can navigate from one screen to another. Here is an [example](https://creately.com/diagram/example/ikfqudv82/user-navigation-diagram-classic?r=v). It can be useful to label each symbol that represents a screen so that you can reference the screens in the next section or the rest of the document if necessary. Give a brief description of what the diagram represents.
 
 ### Screen Layouts
-<img width="1256" alt="CS100 Screen Layout 1" src="https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/a2cc609e-2cb4-4333-9d45-79bba73f4c88">
+<img width="628" alt="CS100 Screen Layout 1" src="https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/a2cc609e-2cb4-4333-9d45-79bba73f4c88">
 
-<img width="1248" alt="CS100 Screen Layout 2" src="https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/55ae876e-b786-4bf7-bf9c-7ff60d90b963">
+<img width="624" alt="CS100 Screen Layout 2" src="https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/55ae876e-b786-4bf7-bf9c-7ff60d90b963">
 
 
 
