@@ -31,6 +31,7 @@
 ## User Interface Specification
 
 ### Navigation Diagram
+
 ![NavigationDiagram](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/b66f3bd9-2b17-4e1b-ae1e-3f907dfaab4c)
 
 ### Screen Layouts
