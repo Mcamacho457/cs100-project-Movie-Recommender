@@ -35,7 +35,7 @@
 ![NavigationDiagram](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/b66f3bd9-2b17-4e1b-ae1e-3f907dfaab4c)
 
 ### Screen Layouts
-![CS100 Screen Layout 1](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/7cd387b0-6229-4eb6-8600-e20dd5286820)
+![Movie Recommender Search](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/132157197/8d97d733-0f4f-4703-9c18-341c7391e39d)
 
 ![CS100 Screen Layout 2](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/5709c41a-6488-4573-94d7-29cbb59b3c06)
 
