@@ -34,7 +34,8 @@
 
 
 ## Class Diagram
- > Include a **class diagram(s)** for your project and a **description** of the diagram(s). Your class diagram(s) should include all the main classes you plan for the project. This should be in sufficient detail that another group could pick up the project this point and successfully complete it. Use proper UML notation (as discussed in the course slides).
+ > ![CS100FinalProjectUML drawio (1)](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/68290731/6d5d7b0e-47cf-4e7d-8793-20c52ab2f4ff)
+
  
  > ## Phase III
  > You will need to schedule a check-in for the second scrum meeting with the same reader you had your first scrum meeting with (using Calendly). Your entire team must be present. This meeting will occur on week 8 during lab time.
