@@ -34,9 +34,20 @@
 
 
 ## Class Diagram
- > ![CS100FinalProjectUML drawio (2)](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/68290731/f7a54ceb-2b4c-41b1-9522-87665b8316ca)
+ > ![CS100FinalProjectUML drawio (2)](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/68290731/6af1d696-a4e1-41cc-a755-4034bfdb7171)
 
 
+## Class Description
+### Parsing Algorithm:
+This algorithm/method will simply clean our data and format it into a csv file with the information for each movie on every line in the structure of “Movie Name, Director, Genre, Cast Members, etc.” This will make it easier to implement an ifstream to create movie data objects.
+### MovieData Class:
+This class will be used to store all the information for a given movie. The information will consist of the movies name, who directed the movie, the main cast members, the movies rating on imdb’s website out of 10.0, it’s genre, and release year. All these variables will be private as we do not want the user to be able to change any of this information. Once a movie object is created, no changes are permitted as the information should be set in stone. All these movie properties will be set using the MovieData constructor which will take in parameters using an ifstream. There will be getters for each private data member as these will be needed to safely view the private data.
+### MovieDatabase Class:
+This class essentially organizes all the movies correctly. We will be using maps to organize movies by director, genre, or other properties. For example, the directorMap will organize movies by director names. A key may be “Quentin Tarantino” to which the values associated with this director will be movies with the titles “Kill Bill”, “Django”, etc. The same idea will be implemented for the genre, year, and rating maps. This will all be done in the MovieDatabase constructor which calls other methods such as addDirectorToMap and more. The getters will be used to retrieve the list of movies for a given director, genre, or year. This will be helpful for our recommendation algorithm.
+### Recommendation Algorithm Class:
+This class is responsible for generating a list of recommended movies based on the criteria chosen by the user. The constructor of this class takes in the database as a parameter and also the char values which determine the method of search, e.g. “D” for director, “G” for genre, etc. The algorithm also takes two string parameters to represent the actual values of the user’s choices. For example, if the user wants to search by director and genre, the string values will represent the director’s name and genre type, respectively. The getList() method will be used to output the recommended list of movies to the user.
+### Menu Class:
+This class is simply the menu for how a person would like movies to be recommended, whether it be by director, genre, year, etc. The choice and choice2 variables will store characters corresponding to recommendation choices. The string1 and string2 variables will store the actual values of the user’s choices, e.g. if the user wanted to search by director name, the choice variable will have a value of “D” and string1 will hold the director’s name which would be given by the user.
  
  > ## Phase III
  > You will need to schedule a check-in for the second scrum meeting with the same reader you had your first scrum meeting with (using Calendly). Your entire team must be present. This meeting will occur on week 8 during lab time.
