@@ -23,7 +23,7 @@
 
 ### Navigation Diagram
 
-![NavigationDiagram](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/b66f3bd9-2b17-4e1b-ae1e-3f907dfaab4c)
+![User Navigation Diagram](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/68290731/4b75c7a1-910a-4796-8f1b-493307ff72a8)
 
 ### Screen Layouts
 ![Movie Recommender Search](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/132157197/8d97d733-0f4f-4703-9c18-341c7391e39d)
