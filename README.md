@@ -34,7 +34,8 @@
 
 
 ## Class Diagram
- > ![CS100FinalProjectUML drawio (1)](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/68290731/6d5d7b0e-47cf-4e7d-8793-20c52ab2f4ff)
+ > ![CS100FinalProjectUML drawio (2)](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/68290731/f7a54ceb-2b4c-41b1-9522-87665b8316ca)
+
 
  
  > ## Phase III
