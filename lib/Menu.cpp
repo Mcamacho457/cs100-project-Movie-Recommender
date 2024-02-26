@@ -5,6 +5,7 @@ using namespace std;
 Menu::Menu() {
 }
 
+//lists options to search
 void Menu::menu1() {
     cout << "A) Actor" << endl;
     cout << "D) Director" << endl;
