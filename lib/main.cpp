@@ -19,9 +19,8 @@ int main()
     }
 
     while (tolower(m1.getChoice()) != 'q' && m1.getChoice2() != 'q' && tolower(start) != 'q') {
-        cout << "Hit R to restart or Q to quit" << endl;
+        cout << endl << "Hit R to restart or Q to quit" << endl;
         cin >> start;
-        //cout << endl;
 
         if (tolower(start) == 'r') {
             cout << endl;
