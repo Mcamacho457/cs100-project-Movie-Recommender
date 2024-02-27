@@ -30,10 +30,13 @@ void Menu::menu() {
         return;
     }
     else if (tolower(choice) == 'a' || tolower(choice) == 'd' || tolower(choice) == 'g' || tolower(choice) == 'y') {
+        cout << endl;
         this->interaction(choice);
+        cin.ignore();
+        getline(cin, string1);
     }
 
-    cout << "Would you like to search based on additional criteria? (Choose a criteria different from your first choice)" << endl;
+    cout << endl << "Would you like to search based on additional criteria? (Choose a criteria different from your first choice)" << endl;
     this->menu1();
     cout << "        (Enter B to search again)" << endl;
 
@@ -48,7 +51,10 @@ void Menu::menu() {
         return;
     }
     else if (tolower(choice2) == 'a' || tolower(choice2) == 'd' || tolower(choice2) == 'g' || tolower(choice2) == 'y') {
+        cout << endl;
         this->interaction(choice2);
+        cin.ignore();
+        getline(cin, string2);
     }
 }
 
@@ -58,7 +64,8 @@ void Menu::interaction(char option) {
     }
 
     else if (tolower(option) == 'd') {
-        cout << endl << "**call director page stuff/methods**" << endl << endl;
+        cout << "Director Search" << endl;
+        cout << "Enter a director's name: ";
     }
 
     else if (tolower(option) == 'g') {
