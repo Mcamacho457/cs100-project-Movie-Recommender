@@ -17,25 +17,16 @@
 
  * The project will provide users to quickly find movies based on parameters inputted into the program. In addition, the program itself will have a feature to be able to scale and grow with new movies. This is achieved through the utilization of IMDB’s database.
 
- > ## Phase II
- > In addition to completing the "User Interface Specification" and "Class Diagram" sections below, you will need to:
- > * Create an "Epic" (note) for each feature. Place these epics in the `Product Backlog` column
- > * Complete your first *sprint planning* meeting to plan out the next 7 days of work.
- >   * Break down the "Epics" into smaller actionable user stories (i.e. smaller development tasks). Convert them into issues and assign them to team members. Place these in the `TODO` column (aka Sprint Backlog).
- >   * These cards should represent roughly 7 days worth of development time for your team. Then, once the sprint is over you should be repeating these steps to plan a new sprint, taking you until your second scrum meeting with the reader in phase III.
- > * Schedule two check-ins using Calendly. Both time slots should be during your lab on week 6. Your entire team must be present for both check-ins.
- >   * The first check-in needs to be scheduled with your lab TA. During that meeting, you will discuss your project design/class diagram from phase II.
- >   * The second check-in should be scheduled with a reader. During that meeting you will discuss:
- >     * The tasks you are planning for the first sprint
- >     * How work will be divided between the team members
+ ## Phase II
+
 ## User Interface Specification
 
 ### Navigation Diagram
 
-![NavigationDiagram](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/b66f3bd9-2b17-4e1b-ae1e-3f907dfaab4c)
+![User Navigation Diagram](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/68290731/4b75c7a1-910a-4796-8f1b-493307ff72a8)
 
 ### Screen Layouts
-![CS100 Screen Layout 1](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/7cd387b0-6229-4eb6-8600-e20dd5286820)
+![Movie Recommender Search](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/132157197/8d97d733-0f4f-4703-9c18-341c7391e39d)
 
 ![CS100 Screen Layout 2](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/5709c41a-6488-4573-94d7-29cbb59b3c06)
 
@@ -43,7 +34,20 @@
 
 
 ## Class Diagram
- > Include a **class diagram(s)** for your project and a **description** of the diagram(s). Your class diagram(s) should include all the main classes you plan for the project. This should be in sufficient detail that another group could pick up the project this point and successfully complete it. Use proper UML notation (as discussed in the course slides).
+ > ![CS100FinalProjectUML drawio (2)](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/68290731/6af1d696-a4e1-41cc-a755-4034bfdb7171)
+
+
+## Class Description
+### Parsing Algorithm:
+This algorithm/method will simply clean our data and format it into a csv file with the information for each movie on every line in the structure of “Movie Name, Director, Genre, Cast Members, etc.” This will make it easier to implement an ifstream to create movie data objects.
+### MovieData Class:
+This class will be used to store all the information for a given movie. The information will consist of the movies name, who directed the movie, the main cast members, the movies rating on imdb’s website out of 10.0, it’s genre, and release year. All these variables will be private as we do not want the user to be able to change any of this information. Once a movie object is created, no changes are permitted as the information should be set in stone. All these movie properties will be set using the MovieData constructor which will take in parameters using an ifstream. There will be getters for each private data member as these will be needed to safely view the private data.
+### MovieDatabase Class:
+This class essentially organizes all the movies correctly. We will be using maps to organize movies by director, genre, or other properties. For example, the directorMap will organize movies by director names. A key may be “Quentin Tarantino” to which the values associated with this director will be movies with the titles “Kill Bill”, “Django”, etc. The same idea will be implemented for the genre, year, and rating maps. This will all be done in the MovieDatabase constructor which calls other methods such as addDirectorToMap and more. The getters will be used to retrieve the list of movies for a given director, genre, or year. This will be helpful for our recommendation algorithm.
+### Recommendation Algorithm Class:
+This class is responsible for generating a list of recommended movies based on the criteria chosen by the user. The constructor of this class takes in the database as a parameter and also the char values which determine the method of search, e.g. “D” for director, “G” for genre, etc. The algorithm also takes two string parameters to represent the actual values of the user’s choices. For example, if the user wants to search by director and genre, the string values will represent the director’s name and genre type, respectively. The getList() method will be used to output the recommended list of movies to the user.
+### Menu Class:
+This class is simply the menu for how a person would like movies to be recommended, whether it be by director, genre, year, etc. The choice and choice2 variables will store characters corresponding to recommendation choices. The string1 and string2 variables will store the actual values of the user’s choices, e.g. if the user wanted to search by director name, the choice variable will have a value of “D” and string1 will hold the director’s name which would be given by the user.
  
  > ## Phase III
  > You will need to schedule a check-in for the second scrum meeting with the same reader you had your first scrum meeting with (using Calendly). Your entire team must be present. This meeting will occur on week 8 during lab time.
