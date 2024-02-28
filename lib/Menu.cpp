@@ -60,7 +60,8 @@ void Menu::menu() {
 
 void Menu::interaction(char option) {
     if (tolower(option) == 'a') {
-        cout << endl << "**call actor page stuff/methods**" << endl << endl;
+        cout << "Actor Search" << endl << endl;
+        cout << "Enter an actor or actresses's name: ";
     }
 
     else if (tolower(option) == 'd') {
