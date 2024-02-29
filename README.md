@@ -50,10 +50,10 @@ This class is responsible for generating a list of recommended movies based on t
 This class is simply the menu for how a person would like movies to be recommended, whether it be by director, genre, year, etc. The choice and choice2 variables will store characters corresponding to recommendation choices. The string1 and string2 variables will store the actual values of the user’s choices, e.g. if the user wanted to search by director name, the choice variable will have a value of “D” and string1 will hold the director’s name which would be given by the user.
  
  > ## Phase III
- 
+
 ![CS100FinalProjectUML_v2](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/5322faed-6ff7-4bf7-9e38-863dbbda1424)
  
- A SOLID principle we applied to the updated UML diagram is the single responsibility principle and the open close principle. The MovieDatabase class has one responsiblity of taking in movie data based on parameters set. We achieved this by making the MovieDatabase class having an aggregation with the MovieData class and the MovieRecommender class having an aggregration with MovieDatabase class. The parsing algorithm is tailored to our program. The parameters are set but we give it the option to extend and grow with new code based on new required parameters. This modification changed our focus and defined a better and organized way to design our code base.
+ A SOLID principle we applied to the updated UML diagram is the single responsibility principle and the open close principle. The MovieDatabase class has one responsiblity of organizing movie data based on parameters set. We achieved this by making the MovieDatabase class having an aggregation with the MovieData class and the MovieRecommender class having an aggregration with MovieDatabase class. The parsing algorithm is tailored to our program. The parameters are set but we give it the option to extend and grow with new code based on new required parameters. This modification changed our focus and defined a better and organized way to design our code base.
 
  
  > ## Final deliverable
