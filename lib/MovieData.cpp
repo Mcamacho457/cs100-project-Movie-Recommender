@@ -1,4 +1,5 @@
 #include "../include/MovieData.h"
+#include <iostream>
 
 using namespace std;
 
@@ -29,6 +30,6 @@ int MovieData::getReleaseYear() {
     return this->movieReleaseYear;
 }
 
-void printMovie() {
-    
+void MovieData::printMovie() {
+    cout << movieName << " | " << movieDirector << " | " << movieGenre << " | " << movieReleaseYear << endl;
 }
