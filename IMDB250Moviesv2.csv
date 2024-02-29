@@ -1,0 +1,251 @@
+Num,Title,Actors [4],Director,Genre,Year
+1,The Shawshank Redemption,"Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler",Frank Darabont,Crime,1994
+2,The Godfather,"Marlon Brando, Al Pacino, James Caan, Richard S. Castellano",Francis Ford Coppola,Crime,1972
+3,The Godfather: Part II,"Al Pacino, Robert Duvall, Diane Keaton, Robert De Niro",Francis Ford Coppola,Crime,1974
+4,The Dark Knight,"Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine",Christopher Nolan,Action,2008
+5,12 Angry Men,"Martin Balsam, John Fiedler, Lee J. Cobb, E.G. Marshall",Sidney Lumet,Crime,1957
+6,Schindler's List,"Liam Neeson, Ben Kingsley, Ralph Fiennes, Caroline Goodall",Steven Spielberg,Biography,1993
+7,The Lord of the Rings: The Return of the King,"Noel Appleby, Ali Astin, Sean Astin, David Aston",Peter Jackson,Adventure,2003
+8,Pulp Fiction,"Tim Roth, Amanda Plummer, Laura Lovelace, John Travolta",Quentin Tarantino,Crime,1994
+9,Fight Club,"Edward Norton, Brad Pitt, Meat Loaf, Zach Grenier",David Fincher,Drama,1999
+10,The Lord of the Rings: The Fellowship of the Ring,"Alan Howard, Noel Appleby, Sean Astin, Sala Baker",Peter Jackson,Adventure,2001
+11,Forrest Gump,"Tom Hanks, Rebecca Williams, Sally Field, Michael Conner Humphreys",Robert Zemeckis,Comedy,1994
+12,Star Wars: Episode V - The Empire Strikes Back,"Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams",Irvin Kershner,Action,1980
+13,Inception,"Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy",Christopher Nolan,Action,2010
+14,The Lord of the Rings: The Two Towers,"Bruce Allpress, Sean Astin, John Bach, Sala Baker",Peter Jackson,Adventure,2002
+15,One Flew Over the Cuckoo's Nest,"Michael Berryman, Peter Brocco, Dean R. Brooks, Alonzo Brown",Milos Forman,Drama,1975
+16,Goodfellas,"Robert De Niro, Ray Liotta, Joe Pesci, Lorraine Bracco",Martin Scorsese,Crime,1990
+17,The Matrix,"Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving","Lana Wachowski, Lilly Wachowski",Action,1999
+18,Star Wars: Episode IV - A New Hope,"Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing",George Lucas,Action,1977
+19,Se7en,"Morgan Freeman, Andrew Kevin Walker, Kevin Spacey, Daniel Zacapa",David Fincher,Crime,1995
+20,It's a Wonderful Life,"James Stewart, Donna Reed, Lionel Barrymore, Thomas Mitchell",Frank Capra,Drama,1946
+21,The Silence of the Lambs,"Jodie Foster, Lawrence A. Bonney, Kasi Lemmons, Lawrence T. Wrentz",Jonathan Demme,Crime,1991
+22,The Usual Suspects,"Stephen Baldwin, Gabriel Byrne, Benicio Del Toro, Kevin Pollak",Bryan Singer,Crime,1995
+23,Léon: The Professional,"Jean Reno, Gary Oldman, Natalie Portman, Danny Aiello",Luc Besson,Crime,1994
+24,Saving Private Ryan,"Tom Hanks, Tom Sizemore, Edward Burns, Barry Pepper",Steven Spielberg,Drama,1998
+25,City Lights,"Virginia Cherrill, Florence Lee, Harry Myers, Al Ernest Garcia",Charles Chaplin,Comedy,1931
+26,Interstellar,"Ellen Burstyn, Matthew McConaughey, Mackenzie Foy, John Lithgow",Christopher Nolan,Adventure,2014
+27,American History X,"Edward Norton, Edward Furlong, Beverly D'Angelo, Jennifer Lien",Tony Kaye,Crime,1998
+28,Modern Times,"Charles Chaplin, Paulette Goddard, Henry Bergman, Tiny Sandford",Charles Chaplin,Comedy,1936
+29,Casablanca,"Humphrey Bogart, Ingrid Bergman, Paul Henreid, Claude Rains",Michael Curtiz,Drama,1942
+30,The Green Mile,"Tom Hanks, David Morse, Michael Clarke Duncan, Bonnie Hunt",Frank Darabont,Crime,1999
+31,Psycho,"Anthony Perkins, Vera Miles, John Gavin, Janet Leigh",Alfred Hitchcock,Horror,1960
+32,Raiders of the Lost Ark,"Harrison Ford, Karen Allen, Paul Freeman, Ronald Lacey",Steven Spielberg,Action,1981
+33,The Pianist,"Adrien Brody, Emilia Fox, Michal Zebrowski, Ed Stoppard",Roman Polanski,Biography,2002
+34,Rear Window,"James Stewart, Grace Kelly, Wendell Corey, Thelma Ritter",Alfred Hitchcock,Mystery,1954
+35,The Departed,"Leonardo DiCaprio, Matt Damon, Jack Nicholson, Mark Wahlberg",Martin Scorsese,Crime,2006
+36,Whiplash,"Miles Teller, J.K. Simmons, Paul Reiser, Melissa Benoist",Damien Chazelle,Drama,2014
+37,Terminator 2: Judgment Day,"Arnold Schwarzenegger, Linda Hamilton, Edward Furlong, Robert Patrick",James Cameron,Action,1991
+38,Back to the Future,"Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover",Robert Zemeckis,Adventure,1985
+39,Gladiator,"Russell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed",Ridley Scott,Action,2000
+40,The Lion King,"Rowan Atkinson, Matthew Broderick, Niketa Calame, Jim Cummings","Roger Allers, Rob Minkoff",Animation,1994
+41,The Prestige,"Hugh Jackman, Christian Bale, Michael Caine, Piper Perabo",Christopher Nolan,Drama,2006
+42,Apocalypse Now,"Marlon Brando, Martin Sheen, Robert Duvall, Frederic Forrest",Francis Ford Coppola,Drama,1979
+43,Memento,"Guy Pearce, Carrie-Anne Moss, Joe Pantoliano, Mark Boone Junior",Christopher Nolan,Mystery,2000
+44,The Great Dictator,"Charles Chaplin, Jack Oakie, Reginald Gardiner, Henry Daniell",Charles Chaplin,Comedy,1940
+45,Sunset Boulevard,"William Holden, Gloria Swanson, Erich von Stroheim, Nancy Olson",Billy Wilder,Drama,1950
+46,Alien,"Tom Skerritt, Sigourney Weaver, Veronica Cartwright, Harry Dean Stanton",Ridley Scott,Horror,1979
+47,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,"Peter Sellers, George C. Scott, Sterling Hayden, Keenan Wynn",Stanley Kubrick,Comedy,1964
+48,Paths of Glory,"Kirk Douglas, Ralph Meeker, Adolphe Menjou, George Macready",Stanley Kubrick,Drama,1957
+49,Django Unchained,"Jamie Foxx, Christoph Waltz, Leonardo DiCaprio, Kerry Washington",Quentin Tarantino,Drama,2012
+50,The Shining,"Jack Nicholson, Shelley Duvall, Danny Lloyd, Scatman Crothers",Stanley Kubrick,Drama,1980
+51,Witness for the Prosecution,"Tyrone Power, Marlene Dietrich, Charles Laughton, Elsa Lanchester",Billy Wilder,Crime,1957
+52,The Dark Knight Rises,"Christian Bale, Gary Oldman, Tom Hardy, Joseph Gordon-Levitt",Christopher Nolan,Action,2012
+53,WALL·E,"Ben Burtt, Elissa Knight, Jeff Garlin, Fred Willard",Andrew Stanton,Animation,2008
+54,American Beauty,"Kevin Spacey, Annette Bening, Thora Birch, Wes Bentley",Sam Mendes,Drama,1999
+55,Once Upon a Time in America,"Robert De Niro, James Woods, Elizabeth McGovern, Joe Pesci",Sergio Leone,Crime,1984
+56,Aliens,"Sigourney Weaver, Carrie Henn, Michael Biehn, Paul Reiser",James Cameron,Action,1986
+57,Citizen Kane,"Joseph Cotten, Dorothy Comingore, Agnes Moorehead, Ruth Warrick",Orson Welles,Drama,1941
+58,North by Northwest,"Cary Grant, Eva Marie Saint, James Mason, Jessie Royce Landis",Alfred Hitchcock,Action,1959
+59,Vertigo,"James Stewart, Kim Novak, Barbara Bel Geddes, Tom Helmore",Alfred Hitchcock,Mystery,1958
+60,Star Wars: Episode VI - Return of the Jedi,"Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams",Richard Marquand,Action,1983
+61,Braveheart,"James Robinson, Sean Lawlor, Sandy Nelson, James Cosmo",Mel Gibson,Biography,1995
+62,Reservoir Dogs,"Harvey Keitel, Tim Roth, Michael Madsen, Chris Penn",Quentin Tarantino,Crime,1992
+63,Double Indemnity,"Fred MacMurray, Barbara Stanwyck, Edward G. Robinson, Porter Hall",Billy Wilder,Crime,1944
+64,Requiem for a Dream,"Ellen Burstyn, Jared Leto, Jennifer Connelly, Marlon Wayans",Darren Aronofsky,Drama,2000
+65,Lawrence of Arabia,"Peter O'Toole, Alec Guinness, Anthony Quinn, Jack Hawkins",David Lean,Adventure,1962
+66,The Kid,"Carl Miller, Edna Purviance, Jackie Coogan, Charles Chaplin",Charles Chaplin,Comedy,1921
+67,A Clockwork Orange,"Malcolm McDowell, Patrick Magee, Michael Bates, Warren Clarke",Stanley Kubrick,Crime,1971
+68,Amadeus,"F. Murray Abraham, Tom Hulce, Elizabeth Berridge, Roy Dotrice",Milos Forman,Biography,1984
+69,To Kill a Mockingbird,"Gregory Peck, John Megna, Frank Overton, Rosemary Murphy",Robert Mulligan,Crime,1962
+70,Eternal Sunshine of the Spotless Mind,"Jim Carrey, Kate Winslet, Gerry Robert Byrne, Elijah Wood",Michel Gondry,Drama,2004
+71,Singin' in the Rain,"Gene Kelly, Donald O'Connor, Debbie Reynolds, Jean Hagen","Stanley Donen, Gene Kelly",Comedy,1952
+72,Taxi Driver,"Diahnne Abbott, Frank Adu, Victor Argo, Gino Ardito",Martin Scorsese,Crime,1976
+73,The Sting,"Paul Newman, Robert Redford, Robert Shaw, Charles Durning",George Roy Hill,Comedy,1973
+74,Toy Story 3,"Tom Hanks, Tim Allen, Joan Cusack, Ned Beatty",Lee Unkrich,Animation,2010
+75,2001: A Space Odyssey,"Keir Dullea, Gary Lockwood, William Sylvester, Daniel Richter",Stanley Kubrick,Adventure,1968
+76,Full Metal Jacket,"Matthew Modine, Adam Baldwin, Vincent D'Onofrio, R. Lee Ermey",Stanley Kubrick,Drama,1987
+77,Baby Driver,"Ansel Elgort, Jon Bernthal, Jon Hamm, Eiza González",Edgar Wright,Action,2017
+78,Toy Story,"Tom Hanks, Tim Allen, Don Rickles, Jim Varney",John Lasseter,Animation,1995
+79,Inglourious Basterds,"Brad Pitt, Mélanie Laurent, Christoph Waltz, Eli Roth","Quentin Tarantino, Eli Roth",Adventure,2009
+80,Snatch,"Benicio Del Toro, Dennis Farina, Vinnie Jones, Brad Pitt",Guy Ritchie,Comedy,2000
+81,The Apartment,"Jack Lemmon, Shirley MacLaine, Fred MacMurray, Ray Walston",Billy Wilder,Comedy,1960
+82,All About Eve,"Bette Davis, Anne Baxter, George Sanders, Celeste Holm",Joseph L. Mankiewicz,Drama,1950
+83,Monty Python and the Holy Grail,"Graham Chapman, John Cleese, Eric Idle, Terry Gilliam","Terry Gilliam, Terry Jones",Adventure,1975
+84,Scarface,"Al Pacino, Steven Bauer, Michelle Pfeiffer, Mary Elizabeth Mastrantonio",Brian De Palma,Crime,1983
+85,L.A. Confidential,"Kevin Spacey, Russell Crowe, Guy Pearce, James Cromwell",Curtis Hanson,Crime,1997
+86,Good Will Hunting,"Matt Damon, Ben Affleck, Stellan Skarsgård, John Mighton",Gus Van Sant,Drama,1997
+87,The Treasure of the Sierra Madre,"Humphrey Bogart, Walter Huston, Tim Holt, Bruce Bennett",John Huston,Adventure,1948
+88,Indiana Jones and the Last Crusade,"Harrison Ford, Sean Connery, Denholm Elliott, Alison Doody",Steven Spielberg,Action,1989
+89,Some Like It Hot,"Marilyn Monroe, Tony Curtis, Jack Lemmon, George Raft",Billy Wilder,Comedy,1959
+90,Batman Begins,"Christian Bale, Michael Caine, Liam Neeson, Katie Holmes",Christopher Nolan,Action,2005
+91,Up,"Edward Asner, Christopher Plummer, Jordan Nagai, Bob Peterson","Pete Docter, Bob Peterson",Animation,2009
+92,The Third Man,"Joseph Cotten, Alida Valli, Orson Welles, Trevor Howard",Carol Reed,Film-Noir,1949
+93,Unforgiven,"Clint Eastwood, Gene Hackman, Morgan Freeman, Richard Harris",Clint Eastwood,Drama,1992
+94,Judgment at Nuremberg,"Spencer Tracy, Burt Lancaster, Richard Widmark, Marlene Dietrich",Stanley Kramer,Drama,1961
+95,Raging Bull,"Robert De Niro, Cathy Moriarty, Joe Pesci, Frank Vincent",Martin Scorsese,Biography,1980
+96,The Great Escape,"Steve McQueen, James Garner, Richard Attenborough, James Donald",John Sturges,Adventure,1963
+97,Heat,"Al Pacino, Robert De Niro, Val Kilmer, Jon Voight",Michael Mann,Action,1995
+98,Die Hard,"Bruce Willis, Bonnie Bedelia, Reginald VelJohnson, Paul Gleason",John McTiernan,Action,1988
+99,The Gold Rush,"Charles Chaplin, Mack Swain, Tom Murray, Henry Bergman",Charles Chaplin,Adventure,1925
+100,Chinatown,"Jack Nicholson, Faye Dunaway, John Huston, Perry Lopez",Roman Polanski,Drama,1974
+101,On the Waterfront,"Marlon Brando, Karl Malden, Lee J. Cobb, Rod Steiger",Elia Kazan,Crime,1954
+102,Mr. Smith Goes to Washington,"Jean Arthur, James Stewart, Claude Rains, Edward Arnold",Frank Capra,Comedy,1939
+103,The General,"Buster Keaton, Marion Mack, Glen Cavender, Jim Farley","Clyde Bruckman, Buster Keaton",Action,1926
+104,Inside Out,"Amy Poehler, Phyllis Smith, Richard Kind, Bill Hader","Pete Docter, Ronnie Del Carmen",Animation,2015
+105,The Bridge on the River Kwai,"William Holden, Alec Guinness, Jack Hawkins, Sessue Hayakawa",David Lean,Adventure,1957
+106,Room,"Brie Larson, Jacob Tremblay, Sean Bridgers, Wendy Crewson",Lenny Abrahamson,Drama,2015
+107,La La Land,"Ryan Gosling, Emma Stone, Amiée Conn, Terry Walters",Damien Chazelle,Comedy,2016
+108,Logan,"Hugh Jackman, Patrick Stewart, Dafne Keen, Boyd Holbrook",James Mangold,Action,2017
+109,Blade Runner,"Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos",Ridley Scott,Sci-Fi,1982
+110,"Lock, Stock and Two Smoking Barrels","Jason Flemyng, Dexter Fletcher, Nick Moran, Jason Statham",Guy Ritchie,Comedy,1998
+111,Casino,"Robert De Niro, Sharon Stone, Joe Pesci, James Woods",Martin Scorsese,Crime,1995
+112,A Beautiful Mind,"Russell Crowe, Ed Harris, Jennifer Connelly, Christopher Plummer",Ron Howard,Biography,2001
+113,The Elephant Man,"Anthony Hopkins, John Hurt, Anne Bancroft, John Gielgud",David Lynch,Biography,1980
+114,Warrior,"Joel Edgerton, Tom Hardy, Nick Nolte, Jennifer Morrison",Gavin O'Connor,Action,2011
+115,V for Vendetta,"Natalie Portman, Hugo Weaving, Stephen Rea, Stephen Fry",James McTeigue,Action,2005
+116,The Wolf of Wall Street,"Leonardo DiCaprio, Jonah Hill, Margot Robbie, Matthew McConaughey",Martin Scorsese,Biography,2013
+117,Dial M for Murder,"Ray Milland, Grace Kelly, Robert Cummings, John Williams",Alfred Hitchcock,Crime,1954
+118,Hacksaw Ridge,"Andrew Garfield, Richard Pyros, Jacob Warner, Milo Gibson",Mel Gibson,Biography,2016
+119,Gone with the Wind,"Thomas Mitchell, Barbara O'Neil, Vivien Leigh, Evelyn Keyes","Victor Fleming, George Cukor, Sam Wood",Drama,1939
+120,The Message,"Anthony Quinn, Irene Papas, Michael Ansara, Johnny Sekka",Moustapha Akkad,Adventure,1976
+121,Rebecca,"Laurence Olivier, Joan Fontaine, George Sanders, Judith Anderson",Alfred Hitchcock,Drama,1940
+122,Trainspotting,"Ewan McGregor, Ewen Bremner, Jonny Lee Miller, Kevin McKidd",Danny Boyle,Drama,1996
+123,The Deer Hunter,"Robert De Niro, John Cazale, John Savage, Christopher Walken",Michael Cimino,Drama,1978
+124,Cool Hand Luke,"Paul Newman, George Kennedy, J.D. Cannon, Lou Antonio",Stuart Rosenberg,Crime,1967
+125,Gran Torino,"Clint Eastwood, Christopher Carley, Bee Vang, Ahney Her",Clint Eastwood,Drama,2008
+126,The Big Lebowski,"Jeff Bridges, John Goodman, Julianne Moore, Steve Buscemi","Joel Coen, Ethan Coen",Comedy,1998
+127,The Thing,"Kurt Russell, Wilford Brimley, T.K. Carter, David Clennon",John Carpenter,Horror,1982
+128,It Happened One Night,"Clark Gable, Claudette Colbert, Walter Connolly, Roscoe Karns",Frank Capra,Comedy,1934
+129,Fargo,"William H. Macy, Steve Buscemi, Peter Stormare, Kristin Rudrüd","Joel Coen, Ethan Coen",Crime,1996
+130,The Sixth Sense,"Bruce Willis, Haley Joel Osment, Toni Collette, Olivia Williams",M. Night Shyamalan,Drama,1999
+131,Finding Nemo,"Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe","Andrew Stanton, Lee Unkrich",Animation,2003
+132,Mary and Max,"Toni Collette, Philip Seymour Hoffman, Barry Humphries, Eric Bana",Adam Elliot,Animation,2009
+133,No Country for Old Men,"Tommy Lee Jones, Javier Bardem, Josh Brolin, Woody Harrelson","Ethan Coen, Joel Coen",Crime,2007
+134,How to Train Your Dragon,"Jay Baruchel, Gerard Butler, Craig Ferguson, America Ferrera","Dean DeBlois, Chris Sanders",Animation,2010
+135,There Will Be Blood,"Daniel Day-Lewis, Martin Stringer, Matthew Braden Stringer, Jacob Stringer",Paul Thomas Anderson,Drama,2007
+136,Into the Wild,"Emile Hirsch, Marcia Gay Harden, William Hurt, Jena Malone",Sean Penn,Adventure,2007
+137,Kill Bill: Vol. 1,"Uma Thurman, Lucy Liu, Vivica A. Fox, Daryl Hannah",Quentin Tarantino,Action,2003
+138,Gone Girl,"Ben Affleck, Rosamund Pike, Neil Patrick Harris, Tyler Perry",David Fincher,Crime,2014
+139,Life of Brian,"Graham Chapman, John Cleese, Terry Gilliam, Eric Idle",Terry Jones,Comedy,1979
+140,Network,"Faye Dunaway, William Holden, Peter Finch, Robert Duvall",Sidney Lumet,Drama,1976
+141,Shutter Island,"Leonardo DiCaprio, Mark Ruffalo, Ben Kingsley, Max von Sydow",Martin Scorsese,Mystery,2010
+142,In the Name of the Father,"Alison Crosbie, Daniel Day-Lewis, Philip King, Emma Thompson",Jim Sheridan,Biography,1993
+143,Rush,"Chris Hemsworth, Daniel Brühl, Olivia Wilde, Alexandra Maria Lara",Ron Howard,Action,2013
+144,Hotel Rwanda,"Don Cheadle, Xolani Mali, Desmond Dube, Hakeem Kae-Kazim",Terry George,Biography,2004
+145,Platoon,"Tom Berenger, Keith David, Willem Dafoe, Forest Whitaker",Oliver Stone,Drama,1986
+146,Song of the Sea,"David Rawle, Brendan Gleeson, Lisa Hannigan, Fionnula Flanagan",Tomm Moore,Animation,2014
+147,Ben-Hur,"Charlton Heston, Jack Hawkins, Haya Harareet, Stephen Boyd",William Wyler,Adventure,1959
+148,Stand by Me,"Wil Wheaton, River Phoenix, Corey Feldman, Jerry O'Connell",Rob Reiner,Adventure,1986
+149,Hachi: A Dog's Tale,"Richard Gere, Joan Allen, Cary-Hiroyuki Tagawa, Sarah Roemer",Lasse Hallström,Drama,2009
+150,Kind Hearts and Coronets,"Dennis Price, Valerie Hobson, Joan Greenwood, Alec Guinness",Robert Hamer,Comedy,1949
+151,The Maltese Falcon,"Humphrey Bogart, Mary Astor, Gladys George, Peter Lorre",John Huston,Film-Noir,1941
+152,Butch Cassidy and the Sundance Kid,"Paul Newman, Robert Redford, Katharine Ross, Strother Martin",George Roy Hill,Biography,1969
+153,The Legend of 1900,"Tim Roth, Pruitt Taylor Vince, Bill Nunn, Clarence Williams III",Giuseppe Tornatore,Drama,1998
+154,Spotlight,"Mark Ruffalo, Michael Keaton, Rachel McAdams, Liev Schreiber",Tom McCarthy,Crime,2015
+155,Brief Encounter,"Celia Johnson, Trevor Howard, Stanley Holloway, Joyce Carey",David Lean,Drama,1945
+156,The Best Years of Our Lives,"Myrna Loy, Fredric March, Dana Andrews, Teresa Wright",William Wyler,Drama,1946
+157,The Grapes of Wrath,"Henry Fonda, Jane Darwell, John Carradine, Charley Grapewin",John Ford,Drama,1940
+158,12 Years a Slave,"Chiwetel Ejiofor, Dwight Henry, Dickie Gravois, Bryan Batt",Steve McQueen,Biography,2013
+159,The Grand Budapest Hotel,"Ralph Fiennes, F. Murray Abraham, Mathieu Amalric, Adrien Brody",Wes Anderson,Adventure,2014
+160,Mad Max: Fury Road,"Tom Hardy, Charlize Theron, Nicholas Hoult, Hugh Keays-Byrne",George Miller,Action,2015
+161,The Princess Bride,"Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest",Rob Reiner,Adventure,1987
+162,What Ever Happened to Baby Jane?,"Bette Davis, Joan Crawford, Victor Buono, Wesley Addy",Robert Aldrich,Drama,1962
+163,Million Dollar Baby,"Clint Eastwood, Hilary Swank, Morgan Freeman, Jay Baruchel",Clint Eastwood,Drama,2004
+164,Jurassic Park,"Sam Neill, Laura Dern, Jeff Goldblum, Richard Attenborough",Steven Spielberg,Adventure,1993
+165,Touch of Evil,"Charlton Heston, Janet Leigh, Orson Welles, Joseph Calleia",Orson Welles,Crime,1958
+166,Spider-Man: Homecoming,"Tom Holland, Michael Keaton, Robert Downey Jr., Marisa Tomei",Jon Watts,Action,2017
+167,Before Sunrise,"Ethan Hawke, Julie Delpy, Andrea Eckert, Hanno Pöschl",Richard Linklater,Drama,1995
+168,The Truman Show,"Jim Carrey, Laura Linney, Noah Emmerich, Natascha McElhone",Peter Weir,Comedy,1998
+169,Harry Potter and the Deathly Hallows: Part 2,"Ralph Fiennes, Michael Gambon, Alan Rickman, Daniel Radcliffe",David Yates,Adventure,2011
+170,Star Wars: The Force Awakens,"Harrison Ford, Mark Hamill, Carrie Fisher, Adam Driver",J.J. Abrams,Action,2015
+171,"Paris, Texas","Harry Dean Stanton, Sam Berry, Bernhard Wicki, Dean Stockwell",Wim Wenders,Drama,1984
+172,The Last Picture Show,"Timothy Bottoms, Jeff Bridges, Cybill Shepherd, Ben Johnson",Peter Bogdanovich,Drama,1971
+173,Gandhi,"Ben Kingsley, Candice Bergen, Edward Fox, John Gielgud",Richard Attenborough,Biography,1982
+174,Barry Lyndon,"Ryan O'Neal, Marisa Berenson, Patrick Magee, Hardy Krüger",Stanley Kubrick,Adventure,1975
+175,Rocky,"Sylvester Stallone, Talia Shire, Burt Young, Carl Weathers",John G. Avildsen,Drama,1976
+176,Annie Hall,"Woody Allen, Diane Keaton, Tony Roberts, Carol Kane",Woody Allen,Comedy,1977
+177,Prisoners,"Hugh Jackman, Jake Gyllenhaal, Viola Davis, Maria Bello",Denis Villeneuve,Crime,2013
+178,Donnie Darko,"Jake Gyllenhaal, Holmes Osborne, Maggie Gyllenhaal, Daveigh Chase",Richard Kelly,Drama,2001
+179,Catch Me If You Can,"Leonardo DiCaprio, Tom Hanks, Christopher Walken, Martin Sheen",Steven Spielberg,Biography,2002
+180,The Man Who Shot Liberty Valance,"John Wayne, James Stewart, Vera Miles, Lee Marvin",John Ford,Action,1962
+181,Laura,"Gene Tierney, Dana Andrews, Clifton Webb, Vincent Price",Otto Preminger,Drama,1944
+182,"Monsters, Inc.","John Goodman, Billy Crystal, Mary Gibbs, Steve Buscemi","Pete Docter, David Silverman, Lee Unkrich",Animation,2001
+183,The Bourne Ultimatum,"Matt Damon, Julia Stiles, David Strathairn, Scott Glenn",Paul Greengrass,Action,2007
+184,Cat on a Hot Tin Roof,"Elizabeth Taylor, Paul Newman, Burl Ives, Jack Carson",Richard Brooks,Drama,1958
+185,The Wizard of Oz,"Judy Garland, Frank Morgan, Ray Bolger, Bert Lahr","Victor Fleming, George Cukor, Mervyn LeRoy, Norman Taurog, King Vidor",Adventure,1939
+186,Sleuth,"Laurence Olivier, Michael Caine, Alec Cawthorne, John Matthews",Joseph L. Mankiewicz,Mystery,1972
+187,Roman Holiday,"Gregory Peck, Audrey Hepburn, Eddie Albert, Hartley Power",William Wyler,Comedy,1953
+188,Out of the Past,"Robert Mitchum, Jane Greer, Kirk Douglas, Rhonda Fleming",Jacques Tourneur,Crime,1947
+189,Anatomy of a Murder,"James Stewart, Lee Remick, Ben Gazzara, Arthur O'Connell",Otto Preminger,Crime,1959
+190,Who's Afraid of Virginia Woolf?,"Elizabeth Taylor, Richard Burton, George Segal, Sandy Dennis",Mike Nichols,Drama,1966
+191,The Terminator,"Arnold Schwarzenegger, Michael Biehn, Linda Hamilton, Paul Winfield",James Cameron,Action,1984
+192,Groundhog Day,"Bill Murray, Andie MacDowell, Chris Elliott, Stephen Tobolowsky",Harold Ramis,Comedy,1993
+193,The Help,"Emma Stone, Viola Davis, Bryce Dallas Howard, Octavia Spencer",Tate Taylor,Drama,2011
+194,Strangers on a Train,"Farley Granger, Ruth Roman, Robert Walker, Leo G. Carroll",Alfred Hitchcock,Crime,1951
+195,The Night of the Hunter,"Robert Mitchum, Shelley Winters, Lillian Gish, James Gleason",Charles Laughton,Crime,1955
+196,All Quiet on the Western Front,"Louis Wolheim, Lew Ayres, John Wray, Arnold Lucy",Lewis Milestone,Drama,1930
+197,Beauty and the Beast,"Robby Benson, Jesse Corti, Rex Everhart, Angela Lansbury","Gary Trousdale, Kirk Wise",Animation,1991
+198,Lion,"Sunny Pawar, Abhishek Bharate, Priyanka Bose, Khushi Solanki",Garth Davis,Biography,2016
+199,Twelve Monkeys,"Joseph Melito, Bruce Willis, Jon Seda, Michael Chance",Terry Gilliam,Mystery,1995
+200,Guardians of the Galaxy,"Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel",James Gunn,Action,2014
+201,Dog Day Afternoon,"Penelope Allen, Sully Boyar, John Cazale, Beulah Garrick",Sidney Lumet,Biography,1975
+202,Jaws,"Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary",Steven Spielberg,Adventure,1975
+203,Zootopia,"Ginnifer Goodwin, Jason Bateman, Idris Elba, Jenny Slate","Jared Bush, Byron Howard, Rich Moore",Animation,2016
+204,Guardians of the Galaxy Vol. 2,"Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel",James Gunn,Action,2017
+205,Pirates of the Caribbean: The Curse of the Black Pearl,"Johnny Depp, Geoffrey Rush, Orlando Bloom, Keira Knightley",Gore Verbinski,Action,2003
+206,Before Sunset,"Ethan Hawke, Julie Delpy, Vernon Dobtcheff, Louise Lemoine Torrès",Richard Linklater,Drama,2004
+207,The Imitation Game,"Benedict Cumberbatch, Keira Knightley, Matthew Goode, Rory Kinnear",Morten Tyldum,Biography,2014
+208,Young Frankenstein,"Gene Wilder, Peter Boyle, Marty Feldman, Madeline Kahn",Mel Brooks,Comedy,1974
+209,Stalag 17,"William Holden, Don Taylor, Otto Preminger, Robert Strauss",Billy Wilder,Drama,1953
+210,Dogville,"Nicole Kidman, Harriet Andersson, Lauren Bacall, Jean-Marc Barr",Lars von Trier,Crime,2003
+211,Dead Poets Society,"Robin Williams, Robert Sean Leonard, Ethan Hawke, Josh Charles",Peter Weir,Comedy,1989
+212,High Noon,"Gary Cooper, Thomas Mitchell, Lloyd Bridges, Katy Jurado",Fred Zinnemann,Drama,1952
+213,Papillon,"Steve McQueen, Dustin Hoffman, Victor Jory, Don Gordon",Franklin J. Schaffner,Biography,1973
+214,A Streetcar Named Desire,"Vivien Leigh, Marlon Brando, Kim Hunter, Karl Malden",Elia Kazan,Drama,1951
+215,Arsenic and Old Lace,"Cary Grant, Priscilla Lane, Raymond Massey, Jack Carson",Frank Capra,Comedy,1944
+216,Sin City,"Jessica Alba, Devon Aoki, Alexis Bledel, Powers Boothe","Frank Miller, Robert Rodriguez, Quentin Tarantino",Crime,2005
+217,The Hustler,"Paul Newman, Jackie Gleason, Piper Laurie, George C. Scott",Robert Rossen,Drama,1961
+218,A Night at the Opera,"Groucho Marx, Chico Marx, Harpo Marx, Kitty Carlisle","Sam Wood, Edmund Goulding",Comedy,1935
+219,The Killing,"Sterling Hayden, Coleen Gray, Vince Edwards, Jay C. Flippen",Stanley Kubrick,Crime,1956
+220,The Avengers,"Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth",Joss Whedon,Action,2012
+221,Notorious,"Cary Grant, Ingrid Bergman, Claude Rains, Louis Calhern",Alfred Hitchcock,Drama,1946
+222,Harvey,"Wallace Ford, William H. Lynn, Victoria Horne, Jesse White",Henry Koster,Comedy,1950
+223,The Martian,"Matt Damon, Jessica Chastain, Kristen Wiig, Jeff Daniels",Ridley Scott,Adventure,2015
+224,The Exorcist,"Ellen Burstyn, Max von Sydow, Lee J. Cobb, Kitty Winn",William Friedkin,Horror,1973
+225,Rio Bravo,"John Wayne, Dean Martin, Ricky Nelson, Angie Dickinson",Howard Hawks,Action,1959
+226,The Philadelphia Story,"Cary Grant, Katharine Hepburn, James Stewart, Ruth Hussey",George Cukor,Comedy,1940
+227,Rope,"John Dall, Farley Granger, Edith Evanson, Douglas Dick",Alfred Hitchcock,Crime,1948
+228,The Big Sleep,"Humphrey Bogart, Lauren Bacall, John Ridgely, Martha Vickers",Howard Hawks,Crime,1946
+229,Pink Floyd: The Wall,"Bob Geldof, Christine Hargreaves, James Laurenson, Eleanor David",Alan Parker,Animation,1982
+230,The King's Speech,"Colin Firth, Helena Bonham Carter, Derek Jacobi, Robert Portal",Tom Hooper,Biography,2010
+231,A Christmas Story,"Melinda Dillon, Darren McGavin, Peter Billingsley, Scott Schwartz",Bob Clark,Comedy,1983
+232,The Graduate,"Anne Bancroft, Dustin Hoffman, Katharine Ross, William Daniels",Mike Nichols,Comedy,1967
+233,JFK,"Sally Kirkland, Anthony Ramirez, Ray LePere, Steve Reed",Oliver Stone,Drama,1991
+234,Sling Blade,"Billy Bob Thornton, Dwight Yoakam, J.T. Walsh, John Ritter",Billy Bob Thornton,Drama,1996
+235,Blood Diamond,"Leonardo DiCaprio, Djimon Hounsou, Jennifer Connelly, Kagiso Kuypers",Edward Zwick,Adventure,2006
+236,Magnolia,"Pat Healy, Genevieve Zweig, Mark Flanagan, Neil Flynn",Paul Thomas Anderson,Drama,1999
+237,Rain Man,"Dustin Hoffman, Tom Cruise, Valeria Golino, Gerald R. Molen",Barry Levinson,Drama,1988
+238,The Revenant,"Leonardo DiCaprio, Tom Hardy, Domhnall Gleeson, Will Poulter",Alejandro González Iñárritu,Adventure,2015
+239,The Nightmare Before Christmas,"Danny Elfman, Chris Sarandon, Catherine O'Hara, William Hickey",Henry Selick,Animation,1993
+240,The Manchurian Candidate,"Frank Sinatra, Laurence Harvey, Janet Leigh, Angela Lansbury",John Frankenheimer,Drama,1962
+241,Deadpool,"Ryan Reynolds, Karan Soni, Ed Skrein, Michael Benyaer",Tim Miller,Action,2016
+242,The Wild Bunch,"William Holden, Ernest Borgnine, Robert Ryan, Edmond O'Brien",Sam Peckinpah,Action,1969
+243,Aladdin,"Scott Weinger, Robin Williams, Linda Larkin, Jonathan Freeman","Ron Clements, John Musker",Animation,1992
+244,Big Fish,"Ewan McGregor, Albert Finney, Billy Crudup, Jessica Lange",Tim Burton,Adventure,2003
+245,Patton,"George C. Scott, Karl Malden, Stephen Young, Michael Strong",Franklin J. Schaffner,Biography,1970
+246,The Lost Weekend,"Ray Milland, Jane Wyman, Phillip Terry, Howard Da Silva",Billy Wilder,Drama,1945
+247,Short Term 12,"Brie Larson, John Gallagher Jr., Stephanie Beatriz, Rami Malek",Destin Daniel Cretton,Drama,2013
+248,His Girl Friday,"Cary Grant, Rosalind Russell, Ralph Bellamy, Gene Lockhart",Howard Hawks,Comedy,1940
+249,The Straight Story,"Sissy Spacek, Jane Galloway Heitz, Joseph A. Carpenter, Donald Wiegert",David Lynch,Biography,1999
+250,Slumdog Millionaire,"Dev Patel, Saurabh Shukla, Anil Kapoor, Raj Zutshi","Danny Boyle, Loveleen Tandan",Drama,2008
