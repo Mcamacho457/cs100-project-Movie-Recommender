@@ -70,11 +70,13 @@ void Menu::interaction(char option) {
     }
 
     else if (tolower(option) == 'g') {
-        cout << endl << "**call genre page methods**" << endl << endl;
+        cout << "Genre Search" << endl;
+        cout << "Enter a genre: " << endl;
     }
 
     else if (tolower(option) == 'y') {
-        cout << endl << "**call year page methods**" << endl << endl;
+        cout << "Year Search" << endl;
+        cout << "Enter a year: " << endl;
     }
 }
 
