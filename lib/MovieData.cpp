@@ -2,11 +2,10 @@
 
 using namespace std;
 
-MovieData::MovieData(string movieDirector, string movieName, vector<string> movieCastMembers, double movieRating, string movieGenre, int movieReleaseYear) {
+MovieData::MovieData(string movieDirector, string movieName, vector<string> movieCastMembers, string movieGenre, int movieReleaseYear) {
     this->movieDirector = movieDirector;
     this->movieName = movieName;
     this->movieCastMembers = movieCastMembers; //doesn't seem right, fix later
-    this->movieRating = movieRating;
     this->movieGenre = movieGenre;
     this->movieReleaseYear = movieReleaseYear;
 }
@@ -22,14 +21,14 @@ vector<string> MovieData::getCastMembers() {
     return this->movieCastMembers;
 }
 
-double MovieData::getMovieRating() {
-    return this->movieRating;
-}
-
 string MovieData::getMovieGenre() {
     return this->movieGenre;
 }
 
 int MovieData::getReleaseYear() {
     return this->movieReleaseYear;
+}
+
+void printMovie() {
+    
 }
