@@ -21,6 +21,7 @@ class MovieData {
         string getMovieGenre();
         vector<string> getCastMembers();
         string getDirector();
+        void printMovie();
 };
 
 #endif
