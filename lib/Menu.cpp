@@ -70,7 +70,8 @@ void Menu::interaction(char option) {
     }
 
     else if (tolower(option) == 'g') {
-        cout << endl << "**call genre page methods**" << endl << endl;
+        cout << endl << "Genre Search" << endl << endl;
+        cout << "Enter a genre: "; 
     }
 
     else if (tolower(option) == 'y') {
