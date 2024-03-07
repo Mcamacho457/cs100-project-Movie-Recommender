@@ -3,6 +3,7 @@
 #include <string>
 #include <iostream>
 #include <fstream>
+#include <sstream>
 
 using namespace std;
 
@@ -38,24 +39,41 @@ vector<MovieData> parseFile(string& titleFile, string& genreFile, string& direct
     string director = "";
     string cast = "";
     string year = "";
-    for(int i = 0; i < 10; i++) {
+    for(int i = 0; i < 100; i++) {
         string result = "";
+
         getline(titleStream, title);
         result += title;
         result += '\n';
+
         getline(genreStream, genre);
         result += genre;
         result += '\n';
+
         getline(directorStream, director);
-        // cout << director << endl;
-        // getline(castStream, cast);
+        result += director;
+        result += '\n';
+
         vector<string> castVec;
-        // getline(yearStream, year);
-        // cout << year << endl;
-        // int yearInt = stoi(year);
+        string castMember;
+        getline(castStream, cast);
+        stringstream ss(cast);
+        while(getline(ss, castMember, ',')) {
+            castVec.push_back(castMember);
+        }
+        for(string member : castVec) {
+            cout << member;
+        }
+        cout << endl;
+
+        getline(yearStream, year);
+        result += year;
+        result += '\n';
+        
+        int yearInt = stoi(year);
         cout << result << endl;
         
-        MovieData newMovie = MovieData(director, title, castVec, genre, 5);
+        MovieData newMovie = MovieData(director, title, castVec, genre, yearInt);
         movieList.push_back(newMovie);
     }
     return movieList;
