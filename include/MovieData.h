@@ -11,17 +11,18 @@ class MovieData {
         string movieDirector;
         string movieName;
         vector<string> movieCastMembers;
+        double movieRating;
         string movieGenre;
         int movieReleaseYear;
 
     public:
-        MovieData(string movieDirector, string movieName, vector<string> movieCastMembers, string movieGenre, int movieReleaseYear);
+        MovieData(string movieDirector, string movieName, vector<string> movieCastMembers, double movieRating, string movieGenre, int movieReleaseYear);
         string getTitle();
         int getReleaseYear();
         string getMovieGenre();
         vector<string> getCastMembers();
         string getDirector();
-        void printMovie();
+        double getMovieRating();
 };
 
 #endif
