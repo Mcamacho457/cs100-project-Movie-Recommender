@@ -1,6 +1,9 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
 
+project(MovieRecommender)
+
 ADD_SUBDIRECTORY(googletest)
+
 
 ADD_EXECUTABLE(main_test
     lib/Menu.cpp
@@ -21,3 +24,22 @@ ADD_EXECUTABLE(runAllTests
 
 TARGET_LINK_LIBRARIES(runAllTests gtest)
 TARGET_COMPILE_DEFINITIONS(runAllTests PRIVATE gtest_disable_pthreads=ON)
+
+
+ADD_EXECUTABLE(parse_test
+    lib/parsing_algorithm.cpp
+    lib/MovieData.cpp
+)
+
+
+
+ADD_EXECUTABLE(runTests
+    tests/GoogleTest.cpp
+    lib/MovieData.cpp
+
+)
+
+
+
+TARGET_LINK_LIBRARIES(runTests gtest)
+TARGET_COMPILE_DEFINITIONS(runTests PRIVATE gtest_disable_pthreads=ON)

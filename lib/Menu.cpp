@@ -60,7 +60,8 @@ void Menu::menu() {
 
 void Menu::interaction(char option) {
     if (tolower(option) == 'a') {
-        cout << endl << "**call actor page stuff/methods**" << endl << endl;
+        cout << "Actor Search" << endl << endl;
+        cout << "Enter an actor or actresses's name: ";
     }
 
     else if (tolower(option) == 'd') {
@@ -69,11 +70,13 @@ void Menu::interaction(char option) {
     }
 
     else if (tolower(option) == 'g') {
-        cout << endl << "**call genre page methods**" << endl << endl;
+        cout << "Genre Search" << endl;
+        cout << "Enter a genre: " << endl;
     }
 
     else if (tolower(option) == 'y') {
-        cout << endl << "**call year page methods**" << endl << endl;
+        cout << "Year Search" << endl;
+        cout << "Enter a year: " << endl;
     }
 }
 

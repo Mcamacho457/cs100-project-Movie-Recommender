@@ -8,3 +8,9 @@ CMakeCache.txt
 Makefile
 User Navigation Diagram-1.png
 User Navigation Diagram.png
+parse_test
+runTests
+lib/libgmock.a
+lib/libgmock_main.a
+lib/libgtest.a
+lib/libgtest_main.a
