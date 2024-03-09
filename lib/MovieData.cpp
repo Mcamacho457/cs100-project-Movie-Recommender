@@ -1,6 +1,7 @@
 #include "../include/MovieData.h"
 #include <iostream>
 
+
 using namespace std;
 
 MovieData::MovieData(string movieDirector, string movieName, vector<string> movieCastMembers, string movieGenre, int movieReleaseYear) {
@@ -31,12 +32,12 @@ int MovieData::getReleaseYear() {
 }
 
 void MovieData::printMovie() {
-
-    cout << "debug" << " ";
-    cout << movieName << " ";
-    cout << movieDirector << " ";
-    cout << movieGenre << " ";
-    cout << movieReleaseYear << " ";
-    cout << "end";
-    cout << endl;
+    cout << movieName << " | " << movieDirector << " | " << movieGenre << " | " << movieReleaseYear << endl;
+    vector<string> cast = getCastMembers();
+    unsigned int i = 0;
+    cout << "Cast: ";
+    for (i; i < cast.size() - 1; i++) {
+        cout << cast.at(i) << ", ";
+    }
+    cout << cast.at(i) << endl;
 }
