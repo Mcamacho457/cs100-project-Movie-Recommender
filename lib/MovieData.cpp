@@ -31,5 +31,12 @@ int MovieData::getReleaseYear() {
 }
 
 void MovieData::printMovie() {
-    cout << movieName << " | " << movieDirector << " | " << movieGenre << " | " << movieReleaseYear << endl;
+
+    cout << "debug" << " ";
+    cout << movieName << " ";
+    cout << movieDirector << " ";
+    cout << movieGenre << " ";
+    cout << movieReleaseYear << " ";
+    cout << "end";
+    cout << endl;
 }
