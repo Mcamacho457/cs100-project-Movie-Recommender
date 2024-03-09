@@ -26,11 +26,6 @@ TARGET_LINK_LIBRARIES(runAllTests gtest)
 TARGET_COMPILE_DEFINITIONS(runAllTests PRIVATE gtest_disable_pthreads=ON)
 
 
-ADD_EXECUTABLE(parse_test
-    lib/parsing_algorithm.cpp
-    lib/MovieData.cpp
-)
-
 
 
 ADD_EXECUTABLE(runTests
