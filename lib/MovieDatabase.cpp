@@ -1,14 +1,25 @@
+#include "../lib/parsing_algorithm.cpp"
 #include "../include/MovieDatabase.h"
+#include "../include/MovieData.h"
 #include <string>
 #include <vector>
 #include <sstream>
-#include <queue>
+#include <iostream>
+#include <fstream>
 
 using namespace std;
 
 MovieDatabase::MovieDatabase() {
     //function was used for testing purposes
     //generateData();
+
+    string titleFile = "files/Titles.tsv";
+    string genreFile = "files/Genres.tsv";
+    string directorFile = "files/Directors.tsv";
+    string castFile = "files/Casts.tsv";
+    string yearFile = "files/Years.tsv";
+    this->movies = parseFile(titleFile, genreFile, directorFile, castFile, yearFile);
+    
     for (unsigned int i = 0; i < movies.size(); i++) {
         MovieData *newMovie = &(movies.at(i));
         addDirectorToMap(newMovie);

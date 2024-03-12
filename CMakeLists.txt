@@ -6,6 +6,10 @@ ADD_SUBDIRECTORY(googletest)
 
 
 ADD_EXECUTABLE(main_test
+    include/DirectorRecommend.h
+    lib/RecommendationAlgorithm.cpp
+    lib/MovieData.cpp
+    lib/MovieDatabase.cpp
     lib/Menu.cpp
     lib/main.cpp
 )
@@ -25,11 +29,6 @@ ADD_EXECUTABLE(runAllTests
 TARGET_LINK_LIBRARIES(runAllTests gtest)
 TARGET_COMPILE_DEFINITIONS(runAllTests PRIVATE gtest_disable_pthreads=ON)
 
-
-ADD_EXECUTABLE(parse_test
-    lib/parsing_algorithm.cpp
-    lib/MovieData.cpp
-)
 
 
 

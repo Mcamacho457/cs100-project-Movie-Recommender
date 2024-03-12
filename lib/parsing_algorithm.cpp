@@ -39,7 +39,7 @@ vector<MovieData> parseFile(string& titleFile, string& genreFile, string& direct
     string director = "";
     string cast = "";
     string year = "";
-    for(int i = 0; i < 10; i++) {
+    for(int i = 0; i < 250; i++) {
         string result = "";
 
         getline(titleStream, title);
@@ -64,34 +64,20 @@ vector<MovieData> parseFile(string& titleFile, string& genreFile, string& direct
         while(getline(ss, castMember, ',')) {
             castVec.push_back(castMember);
         }
-        for(string member : castVec) {
+        /*for(string member : castVec) {
             cout << member;
         }
-        cout << endl;
+        cout << endl;*/
 
         getline(yearStream, year);
         result += year;
         result += '\n';
         int yearInt = stoi(year);
 
-        cout << result << endl;
+        //cout << result << endl;
         
         MovieData newMovie = MovieData(director, title, castVec, genre, yearInt);
         movieList.push_back(newMovie);
     }
     return movieList;
-}
-
-int main() {
-        vector<MovieData> movieList;
-        string titleFile = "files/Titles.tsv";
-        string genreFile = "files/Genres.tsv";
-        string directorFile = "files/Directors.tsv";
-        string castFile = "files/Casts.tsv";
-        string yearFile = "files/Years.tsv";
-        cout << "before parsefile"<<endl;
-        movieList = parseFile(titleFile, genreFile, directorFile, castFile, yearFile);
-        for(MovieData movie : movieList) {
-            movie.printMovie();
-        }
 }
