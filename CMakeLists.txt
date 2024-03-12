@@ -6,6 +6,10 @@ ADD_SUBDIRECTORY(googletest)
 
 
 ADD_EXECUTABLE(main_test
+    include/DirectorRecommend.h
+    lib/RecommendationAlgorithm.cpp
+    lib/MovieData.cpp
+    lib/MovieDatabase.cpp
     lib/Menu.cpp
     lib/main.cpp
 )
