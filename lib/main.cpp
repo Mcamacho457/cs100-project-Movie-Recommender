@@ -2,6 +2,7 @@
 #include "../include/MovieData.h"
 #include "../include/Menu.h"
 #include "../include/DirectorRecommend.h"
+#include "../include/ActorRecommend.h"
 #include "../include/MovieDatabase.h"
 
 using namespace std;
@@ -27,6 +28,12 @@ int main()
         algor.algorithm(dataBase, m1.getChoice(), m1.getChoice2(), m1.getString1(), m1.getString2());
         recommendedMovies = algor.getList();
     }
+    else if (tolower(m1.getChoice()) == 'a' && tolower(m1.getChoice2()) != 'q'){
+        ActorRecommend algor;
+        algor.algorithm(dataBase, m1.getChoice(), m1.getChoice2(), m1.getString1(), m1.getString2());
+        recommendedMovies = algor.getList();
+    }
+    
     for (unsigned int i = 0; i < recommendedMovies.size(); i++) {
         recommendedMovies.at(i)->printMovie();
     }
