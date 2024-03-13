@@ -1,7 +1,6 @@
 #include "../lib/parsing_algorithm.cpp"
 #include "../include/MovieDatabase.h"
 #include "../include/MovieData.h"
-#include "../lib/parsing_algorithm.cpp"
 
 #include <string>
 #include <vector>

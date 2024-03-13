@@ -22,7 +22,7 @@ int main()
         m1.menu();
     }
 
-    if (tolower(m1.getChoice()) == 'd') {
+    if (tolower(m1.getChoice()) == 'd' && tolower(m1.getChoice2() != 'q')) {
         DirectorRecommend algor;
         algor.algorithm(dataBase, m1.getChoice(), m1.getChoice2(), m1.getString1(), m1.getString2());
         recommendedMovies = algor.getList();
