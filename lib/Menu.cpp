@@ -39,11 +39,11 @@ void Menu::menu() {
 
     cout << endl << "Would you like to search based on additional criteria? (Choose a criteria different from your first choice)" << endl;
     this->menu1();
-    cout << "        (Enter N to search by only your first option)" << endl;
+    cout << "        (Enter B to search again)" << endl;
 
     cin >> choice2;
 
-    while (tolower(choice2) != 'n' && tolower(choice2) != 'q' && tolower(choice2) != 'a' && tolower(choice2) != 'd' && tolower(choice2) != 'g' && tolower(choice2) != 'y') {
+    while (tolower(choice2) != 'q' && tolower(choice2) != 'a' && tolower(choice2) != 'd' && tolower(choice2) != 'g' && tolower(choice2) != 'y') {
         cout << "Invalid choice, please try again: " << endl;
         cin >> choice2;
     }
@@ -51,7 +51,7 @@ void Menu::menu() {
     if (tolower(choice2) == 'q') {
         return;
     }
-    else if (tolower(choice2) != 'n' && (tolower(choice2) == 'a' || tolower(choice2) == 'd' || tolower(choice2) == 'g' || tolower(choice2) == 'y')) {
+    else if (tolower(choice2) == 'a' || tolower(choice2) == 'd' || tolower(choice2) == 'g' || tolower(choice2) == 'y') {
         cout << endl;
         this->interaction(choice2);
         cin.ignore();
