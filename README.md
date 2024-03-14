@@ -51,7 +51,7 @@ This class is simply the menu for how a person would like movies to be recommend
  
  > ## Phase III
 
-![CS100FinalProjectUML_v2](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/5322faed-6ff7-4bf7-9e38-863dbbda1424)
+![CS100FinalProjectUML](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/68290731/34c2d7b9-9a08-40c4-befc-3f2e3fa114b2)
  
  A SOLID principle we applied to the updated UML diagram is the single responsibility principle and the open close principle. The MovieDatabase class has one responsiblity of organizing movie data based on the parameters set. We achieved this by making the MovieDatabase class having an aggregation with the MovieData class and the MovieRecommender class having an aggregration with MovieDatabase class. In addition, we made this aggregation because the Menu class interacts with the user and all of their information is contained within the Menu class and that it is a member variable for the MovieRecommender class. This allows for us to declare just one object in main that operates the entire program while still having a separate class who's sole purpose is to interact with the user. Furthurmore, the RecommendationAlgorithm class was conceived to being one class and now an abstract class as our requirements for the program needed the ability to call different algorithms based on the user input.
 
