@@ -1,6 +1,7 @@
 #include "../include/Menu.h"
 #include "../include/DirectorRecommend.h"
 #include "../include/ActorRecommend.h"
+#include "../include/YearRecommend.h"
 
 using namespace std;
 
