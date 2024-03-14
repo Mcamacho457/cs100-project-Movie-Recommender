@@ -3,6 +3,7 @@
 #include "../include/Menu.h"
 #include "../include/DirectorRecommend.h"
 #include "../include/ActorRecommend.h"
+#include "../include/GenreRecommend.h"
 #include "../include/MovieDatabase.h"
 
 using namespace std;
@@ -30,6 +31,11 @@ int main()
     }
     else if (tolower(m1.getChoice()) == 'a' && tolower(m1.getChoice2()) != 'q'){
         ActorRecommend algor;
+        algor.algorithm(dataBase, m1.getChoice(), m1.getChoice2(), m1.getString1(), m1.getString2());
+        recommendedMovies = algor.getList();
+    }
+     else if (tolower(m1.getChoice()) == 'g' && tolower(m1.getChoice2()) != 'q'){
+        GenreRecommend algor;
         algor.algorithm(dataBase, m1.getChoice(), m1.getChoice2(), m1.getString1(), m1.getString2());
         recommendedMovies = algor.getList();
     }
