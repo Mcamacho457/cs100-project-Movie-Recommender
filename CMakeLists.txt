@@ -8,6 +8,7 @@ ADD_SUBDIRECTORY(googletest)
 ADD_EXECUTABLE(main_test
     include/DirectorRecommend.h
     include/ActorRecommend.h
+    include/YearRecommend.h
     include/GenreRecommend.h 
     lib/RecommendationAlgorithm.cpp
     lib/MovieData.cpp
