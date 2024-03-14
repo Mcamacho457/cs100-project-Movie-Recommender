@@ -2,6 +2,7 @@
 #include "../include/DirectorRecommend.h"
 #include "../include/ActorRecommend.h"
 #include "../include/YearRecommend.h"
+#include "../include/GenreRecommend.h"
 
 using namespace std;
 
