@@ -49,7 +49,7 @@ This class is responsible for generating a list of recommended movies based on t
 ### Menu Class:
 This class is simply the menu for how a person would like movies to be recommended, whether it be by director, genre, year, etc. The choice and choice2 variables will store characters corresponding to recommendation choices. The string1 and string2 variables will store the actual values of the user’s choices, e.g. if the user wanted to search by director name, the choice variable will have a value of “D” and string1 will hold the director’s name which would be given by the user.
  
- > ## Phase III
+## Phase III
 
 ### Updated Class Diagram
 ![Copy of CS100FinalProjectUML drawio (2)](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/68290731/4003640b-c71d-4e10-8433-901e14cebdab)
