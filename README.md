@@ -17,7 +17,7 @@
 
  * The project will provide users to quickly find movies based on parameters inputted into the program. In addition, the program itself will have a feature to be able to scale and grow with new movies. This is achieved through the utilization of IMDB’s database.
 
- ## Phase II
+## Phase II
 
 ## User Interface Specification
 
@@ -58,16 +58,9 @@ This class is simply the menu for how a person would like movies to be recommend
 
  The parsing algorithm is tailored to our program. The parameters are set but we give it the option to extend and grow with new code based on new required parameters. This modification changed our focus and defined a better and organized way to design our code base.
 
- 
- > ## Final deliverable
- > All group members will give a demo to the reader during lab time. ou should schedule your demo on Calendly with the same reader who took your second scrum meeting. The reader will check the demo and the project GitHub repository and ask a few questions to all the team members. 
- > Before the demo, you should do the following:
- > * Complete the sections below (i.e. Screenshots, Installation/Usage, Testing)
- > * Plan one more sprint (that you will not necessarily complete before the end of the quarter). Your In-progress and In-testing columns should be empty (you are not doing more work currently) but your TODO column should have a full sprint plan in it as you have done before. This should include any known bugs (there should be some) or new features you would like to add. These should appear as issues/cards on your Project board.
- > * Make sure your README file and Project board are up-to-date reflecting the current status of your project (e.g. any changes that you have made during the project such as changes to your class diagram). Previous versions should still be visible through your commit history. 
- 
- ## Screenshots
- > Screenshots of the input/output after running your application
+## Screenshots
+<img width="844" alt="MovieRecoRun" src="https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/7ef7d80e-8f1c-4820-ae8f-1abcb1ce7427">
+
  ## Installation/Usage
 Below are step-by-step instructions to download and run our program successfully.
 
@@ -122,5 +115,4 @@ Please then follow the on screen instructions to use the Movie Recommender progr
 
 
  ## Testing
- > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
- 
+Our project was validated by using the GoogleTest framework.
