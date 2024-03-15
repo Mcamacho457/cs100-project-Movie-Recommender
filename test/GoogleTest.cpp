@@ -1,6 +1,7 @@
 #include "gtest/gtest.h"
 #include "../include/MovieData.h"
 #include "../include/MovieDatabase.h"
+#include "../include/Menu.h"
 
 //This is a test for the MovieData class
 TEST(MovieDataConstructorTests, movieConstructorWorks) {
@@ -51,6 +52,37 @@ TEST(DatabaseAddMethodsTests, addDirectorMethodCorrectDataAdded) {
   EXPECT_EQ(vect, directorlist);
   EXPECT_EQ(1, directorlist.size());
   EXPECT_EQ(vect.at(0), directorlist.at(0));
+}
+
+// tests/GoogleTest.cpp tests
+TEST(movieDataTest, getDirectorTest){
+vector<string> movieCastMembers = {"testCast1", "testCast2", "testCast3"};
+MovieData *p = new MovieData("testDirector", "testMovieName", movieCastMembers, "testMovieGenre", 0);
+EXPECT_EQ(p->getDirector(), "testDirector");
+}
+
+TEST(movieDataTest, getMovieNameTest){
+vector<string> movieCastMembers = {"testCast1", "testCast2", "testCast3"};
+MovieData *p = new MovieData("testDirector", "testMovieName", movieCastMembers, "testMovieGenre", 0);
+EXPECT_EQ(p->getTitle(), "testMovieName");
+}
+
+TEST(movieDataTest, getCastMembersTest){
+vector<string> movieCastMembers = {"testCast1", "testCast2", "testCast3"};
+MovieData *p = new MovieData("testDirector", "testMovieName", movieCastMembers, "testMovieGenre", 0);
+EXPECT_EQ(p->getCastMembers(), movieCastMembers);
+}
+
+TEST(movieDataTest, getMovieGenreTest){
+vector<string> movieCastMembers = {"testCast1", "testCast2", "testCast3"};
+MovieData *p = new MovieData("testDirector", "testMovieName", movieCastMembers, "testMovieGenre", 0);
+EXPECT_EQ(p->getMovieGenre(), "testMovieGenre");
+}
+
+TEST(movieDataTest, getReleaseYear){
+vector<string> movieCastMembers = {"testCast1", "testCast2", "testCast3"};
+MovieData *p = new MovieData("testDirector", "testMovieName", movieCastMembers, "testMovieGenre", 0);
+EXPECT_EQ(p->getReleaseYear(), 0);
 }
 
 int main(int argc, char **argv) {

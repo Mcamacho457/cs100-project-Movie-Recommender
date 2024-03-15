@@ -44,18 +44,18 @@ vector<MovieData> parseFile(string& titleFile, string& genreFile, string& direct
 
         getline(titleStream, title);
         title = title.substr(0, title.size() - 1);
-        result += title;
-        result += '\n';
+        // result += title;
+        // result += '\n';
 
         getline(genreStream, genre);
         genre = genre.substr(0, genre.size() - 1);
-        result += genre;
-        result += '\n';
+        // result += genre;
+        // result += '\n';
 
         getline(directorStream, director);
         director = director.substr(0, director.size() - 1);
-        result += director;
-        result += '\n';
+        // result += director;
+        // result += '\n';
 
         vector<string> castVec;
         string castMember;
@@ -70,8 +70,8 @@ vector<MovieData> parseFile(string& titleFile, string& genreFile, string& direct
         cout << endl;*/
 
         getline(yearStream, year);
-        result += year;
-        result += '\n';
+        // result += year;
+        // result += '\n';
         int yearInt = stoi(year);
 
         //cout << result << endl;
