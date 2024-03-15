@@ -114,4 +114,5 @@ Please then follow the on screen instructions to use the Movie Recommender progr
 
 
  ## Testing
-Our project was validated by using the GoogleTest framework. We used a variety of test suites that coverred constructors and important methods for the MovieData and MovieDatabase classes.
+Our project was validated by using the GoogleTest framework. We used a variety of test suites that covered constructors and important methods for the MovieData and MovieDatabase classes.
+<img width="473" alt="Tests" src="https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/132157197/25528fc7-9aa8-4826-8056-a4245faafbeb">
