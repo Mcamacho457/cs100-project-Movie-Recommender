@@ -61,6 +61,9 @@ This class is simply the menu for how a person would like movies to be recommend
 ## Screenshots
 <img width="844" alt="MovieRecoRun" src="https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/7ef7d80e-8f1c-4820-ae8f-1abcb1ce7427">
 
+<img width="606" alt="Memcheck" src="https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/72622020/d69effc0-79ab-4e2a-8db6-9d0d1631f662">
+
+
  ## Installation/Usage
 Below are step-by-step instructions to download and run our program successfully.
 
