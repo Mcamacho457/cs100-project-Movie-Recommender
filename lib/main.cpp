@@ -60,5 +60,8 @@ int main()
         }
     }*/
 
+    recommendedMovies.clear();
+    delete dataBase;
+
     return 0;
 }
