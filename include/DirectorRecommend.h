@@ -25,7 +25,7 @@ class DirectorRecommend : public RecommendationAlgorithm {
                 }
                 cout << endl << "Movies directed by " << string1 << ':' << endl;
             }
-            else if (tolower(choice1) == 'd' && choice2 == 'g') {
+            else if (tolower(choice1) == 'd' && tolower(choice2) == 'g') {
                 //cout << "Entered director/genre recommend" << endl;
 
                 //int movieCount = 0;
@@ -40,7 +40,7 @@ class DirectorRecommend : public RecommendationAlgorithm {
                 }
                 cout << endl << string2 << " movies directed by " << string1 << ':' << endl;
             }
-            else if (tolower(choice1) == 'd' && choice2 == 'y') {
+            else if (tolower(choice1) == 'd' && tolower(choice2) == 'y') {
                 //cout << "Entered director/year recommend" << endl;
 
                 //int movieCount = 0;
@@ -55,7 +55,7 @@ class DirectorRecommend : public RecommendationAlgorithm {
                 }
                 cout << endl << "Movies directed by " << string1 << ", released in " << string2 << ':' << endl;
             }
-            else if (tolower(choice1) == 'd' && choice2 == 'a') {
+            else if (tolower(choice1) == 'd' && tolower(choice2) == 'a') {
                 cout << "Entered director/actor recommend" << endl;
 
                 //int movieCount = 0;

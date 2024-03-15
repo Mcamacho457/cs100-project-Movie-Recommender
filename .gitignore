@@ -1,6 +1,7 @@
 main_test
 database_test
 runAllTests
+main
 
 CMakeFiles
 cmake_install.cmake

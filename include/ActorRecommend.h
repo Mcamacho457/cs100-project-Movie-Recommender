@@ -25,7 +25,7 @@ class ActorRecommend : public RecommendationAlgorithm {
                 }
                 cout << endl << "Movies with actor " << string1 << ':' << endl;
             }
-            else if (tolower(choice1) == 'a' && choice2 == 'g') {
+            else if (tolower(choice1) == 'a' && tolower(choice2) == 'g') {
                 //cout << "Entered director/genre recommend" << endl;
 
                 //int movieCount = 0;
@@ -38,9 +38,9 @@ class ActorRecommend : public RecommendationAlgorithm {
                         break;
                     }
                 }
-                cout << endl << string2 << " movies with actor" << string1 << ':' << endl;
+                cout << endl << string2 << " movies with actor " << string1 << ':' << endl;
             }
-            else if (tolower(choice1) == 'a' && choice2 == 'y') {
+            else if (tolower(choice1) == 'a' && tolower(choice2) == 'y') {
                 //cout << "Entered director/year recommend" << endl;
 
                 //int movieCount = 0;
@@ -53,9 +53,9 @@ class ActorRecommend : public RecommendationAlgorithm {
                         break;
                     }
                 }
-                cout << endl << "Movies with actor" << string1 << ", released in " << string2 << ':' << endl;
+                cout << endl << "Movies with actor " << string1 << ", released in " << string2 << ':' << endl;
             }
-            else if (tolower(choice1) == 'a' && choice2 == 'd') {
+            else if (tolower(choice1) == 'a' && tolower(choice2) == 'd') {
                 cout << "Entered actor/director recommend" << endl;
 
                 //int movieCount = 0;
