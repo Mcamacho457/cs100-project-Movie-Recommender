@@ -17,8 +17,6 @@
 
  * The project will provide users to quickly find movies based on parameters inputted into the program. In addition, the program itself will have a feature to be able to scale and grow with new movies. This is achieved through the utilization of IMDB’s database.
 
-## Phase II
-
 ## User Interface Specification
 
 ### Navigation Diagram
@@ -34,7 +32,7 @@
 
 
 ## Class Diagram
- > ![CS100FinalProjectUML drawio (2)](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/68290731/6af1d696-a4e1-41cc-a755-4034bfdb7171)
+![CS100FinalProjectUML drawio (2)](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/68290731/6af1d696-a4e1-41cc-a755-4034bfdb7171)
 
 
 ## Class Description
@@ -49,8 +47,6 @@ This class is responsible for generating a list of recommended movies based on t
 ### Menu Class:
 This class is simply the menu for how a person would like movies to be recommended, whether it be by director, genre, year, etc. The choice and choice2 variables will store characters corresponding to recommendation choices. The string1 and string2 variables will store the actual values of the user’s choices, e.g. if the user wanted to search by director name, the choice variable will have a value of “D” and string1 will hold the director’s name which would be given by the user.
  
-## Phase III
-
 ### Updated Class Diagram
 ![Copy of CS100FinalProjectUML drawio (2)](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/68290731/4003640b-c71d-4e10-8433-901e14cebdab)
  
