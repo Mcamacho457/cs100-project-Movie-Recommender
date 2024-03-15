@@ -25,7 +25,7 @@ class YearRecommend : public RecommendationAlgorithm {
                 }
                 cout << endl << "Movies with year " << string1 << ':' << endl;
             }
-            else if (tolower(choice1) == 'y' && choice2 == 'g') {
+            else if (tolower(choice1) == 'y' && tolower(choice2) == 'g') {
                 //cout << "Entered director/genre recommend" << endl;
 
                 //int movieCount = 0;
@@ -40,7 +40,7 @@ class YearRecommend : public RecommendationAlgorithm {
                 }
                 cout << endl << string2 << " movies with year " << string1 << ':' << endl;
             }
-            else if (tolower(choice1) == 'y' && choice2 == 'd') {
+            else if (tolower(choice1) == 'y' && tolower(choice2) == 'd') {
                 //cout << "Entered director/year recommend" << endl;
 
                 //int movieCount = 0;
@@ -55,7 +55,7 @@ class YearRecommend : public RecommendationAlgorithm {
                 }
                 cout << endl << "Movies with year " << string1 << ", directed by " << string2 << ':' << endl;
             }
-            else if (tolower(choice1) == 'y' && choice2 == 'a') {
+            else if (tolower(choice1) == 'y' && tolower(choice2) == 'a') {
                 cout << "Entered year/actor recommend" << endl;
 
                 //int movieCount = 0;

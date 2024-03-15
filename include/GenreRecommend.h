@@ -24,7 +24,7 @@ class GenreRecommend : public RecommendationAlgorithm {
                 }
                 cout << endl << "Movies under genre " << string1 << ':' << endl;
             }
-            else if (tolower(choice1) == 'g' && choice2 == 'a') {                                           //genre and actor
+            else if (tolower(choice1) == 'g' && tolower(choice2) == 'a') {                                           //genre and actor
 
                 //int movieCount = 0;
                 for (unsigned int i = 0; i < genreMovieList.size(); i++) {
@@ -42,7 +42,7 @@ class GenreRecommend : public RecommendationAlgorithm {
                 }
                 cout << endl << "Movies containing " << string2 << ", under genre " << string1 << ':' << endl;
             }
-            else if (tolower(choice1) == 'g' && choice2 == 'y') {                                               //genre and year
+            else if (tolower(choice1) == 'g' && tolower(choice2) == 'y') {                                               //genre and year
 
                 //int movieCount = 0;
                 for (unsigned int i = 0; i < genreMovieList.size(); i++) {
@@ -56,7 +56,7 @@ class GenreRecommend : public RecommendationAlgorithm {
                 }
                 cout << endl << "Movies under genre " << string1 << ", released in " << string2 << ':' << endl;
             }
-            else if (tolower(choice1) == 'g' && choice2 == 'd') {                                                               //genre and director
+            else if (tolower(choice1) == 'g' && tolower(choice2) == 'd') {                                                               //genre and director
 
                 //int movieCount = 0;
                for (unsigned int i = 0; i < genreMovieList.size(); i++) {
