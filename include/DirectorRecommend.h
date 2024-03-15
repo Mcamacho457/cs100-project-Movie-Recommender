@@ -56,7 +56,7 @@ class DirectorRecommend : public RecommendationAlgorithm {
                 cout << endl << "Movies directed by " << string1 << ", released in " << string2 << ':' << endl;
             }
             else if (tolower(choice1) == 'd' && tolower(choice2) == 'a') {
-                cout << "Entered director/actor recommend" << endl;
+                //cout << "Entered director/actor recommend" << endl;
 
                 //int movieCount = 0;
                 for (unsigned int i = 0; i < directorMovieList.size(); i++) {

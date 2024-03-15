@@ -56,7 +56,7 @@ class YearRecommend : public RecommendationAlgorithm {
                 cout << endl << "Movies with year " << string1 << ", directed by " << string2 << ':' << endl;
             }
             else if (tolower(choice1) == 'y' && tolower(choice2) == 'a') {
-                cout << "Entered year/actor recommend" << endl;
+                //cout << "Entered year/actor recommend" << endl;
 
                 //int movieCount = 0;
                 for (unsigned int i = 0; i < yearMovieList.size(); i++) {
