@@ -69,7 +69,58 @@ This class is simply the menu for how a person would like movies to be recommend
  ## Screenshots
  > Screenshots of the input/output after running your application
  ## Installation/Usage
- > Instructions on installing and running your application
+Below are step-by-step instructions to download and run our program successfully.
+
+**Downloading the Necessary Files**
+
+***Download the following folders:***
+* data
+* files
+* include
+* lib
+* test
+* tests
+
+***Download the following files:***
+* .gitmodules
+* CMakeLists.txt
+* IMDB250Moviesv2.csv
+  
+**Setting up your Environment**
+
+Put all of these files that you downloaded into a folder labeled "Movie Recommender". Then, open up your preferred Integrated Development Environment (IDE). In the IDE, navigate to the "Movie Recmomender" folder that you created, and open it. We will then need to add the google test folders, by doing the following:   
+
+
+***Downloading Google Test:***
+
+To download gtest, insert the following into the terminal:
+```
+git submodule add https://github.com/google/googletest.git 
+```
+If that does not load the gtest properly, then run the following:
+```
+git clone --recusive https://github.com/google/googletest.git
+```
+
+***Running the Program***
+
+After all of these steps have been followed, you should now be ready to configure CMake. Run the following in the terminal:
+```
+$ cmake .
+$ make
+```
+This will configure CMake to generate the project files. We will then run the program with the following:
+```
+$ ./main_test
+```
+The following should then pop up in the terminal:
+```
+Welcome to the Movie Recommender
+Press S to start.
+```
+Please then follow the on screen instructions to use the Movie Recommender program to search for movies based on different criterias.  
+
+
  ## Testing
  > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
  
