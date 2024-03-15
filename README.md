@@ -107,7 +107,7 @@ $ make
 ```
 This will configure CMake to generate the project files. We will then run the program with the following:
 ```
-$ ./main_test
+$ ./main
 ```
 The following should then pop up in the terminal:
 ```
