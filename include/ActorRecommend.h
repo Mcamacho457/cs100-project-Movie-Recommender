@@ -56,7 +56,7 @@ class ActorRecommend : public RecommendationAlgorithm {
                 cout << endl << "Movies with actor " << string1 << ", released in " << string2 << ':' << endl;
             }
             else if (tolower(choice1) == 'a' && tolower(choice2) == 'd') {
-                cout << "Entered actor/director recommend" << endl;
+                //cout << "Entered actor/director recommend" << endl;
 
                 //int movieCount = 0;
                for (unsigned int i = 0; i < actorMovieList.size(); i++) {
