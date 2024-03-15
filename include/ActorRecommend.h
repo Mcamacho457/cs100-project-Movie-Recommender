@@ -38,7 +38,7 @@ class ActorRecommend : public RecommendationAlgorithm {
                         break;
                     }
                 }
-                cout << endl << string2 << " movies with actor" << string1 << ':' << endl;
+                cout << endl << string2 << " movies with actor " << string1 << ':' << endl;
             }
             else if (tolower(choice1) == 'a' && choice2 == 'y') {
                 //cout << "Entered director/year recommend" << endl;
