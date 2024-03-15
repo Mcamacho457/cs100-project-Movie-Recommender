@@ -50,7 +50,7 @@ This class is simply the menu for how a person would like movies to be recommend
 ### Updated Class Diagram
 ![Copy of CS100FinalProjectUML drawio (2)](https://github.com/cs100/final-project-vinsi001-jjin060-ajaya014-mcama053/assets/68290731/4003640b-c71d-4e10-8433-901e14cebdab)
  
- A SOLID principle we applied to the updated UML diagram is the single responsibility principle and the open close principle. The MovieDatabase class has one responsiblity of organizing movie data based on the parameters set. We achieved this by making the MovieDatabase class having an aggregation with the MovieData class and the MovieRecommender class having an aggregration with MovieDatabase class. In addition, we made this aggregation because the Menu class interacts with the user and all of their information is contained within the Menu class and that it is a member variable for the MovieRecommender class. This allows for us to declare just one object in main that operates the entire program while still having a separate class who's sole purpose is to interact with the user. Furthurmore, the RecommendationAlgorithm class was conceived to being one class and now an abstract class as our requirements for the program needed the ability to call different algorithms based on the user input.
+ The SOLID principles we applied to the updated UML diagram were the single-responsibility principle and the open-closed principle. The MovieDatabase class has one responsiblity of organizing movie data based on the parameters set. We achieved this by making the MovieDatabase class having an aggregation with the MovieData class and the MovieRecommender class having an aggregration with MovieDatabase class. In addition, we made this aggregation because the Menu class interacts with the user and all of their information is contained within the Menu class and that it is a member variable for the MovieRecommender class. This allows for us to declare just one object in main that operates the entire program while still having a separate class who's sole purpose is to interact with the user. Furthurmore, the RecommendationAlgorithm class was conceived to being one class and now an abstract class as our requirements for the program needed the ability to call different algorithms based on the user input.
 
  The parsing algorithm is tailored to our program. The parameters are set but we give it the option to extend and grow with new code based on new required parameters. This modification changed our focus and defined a better and organized way to design our code base.
 
@@ -114,4 +114,4 @@ Please then follow the on screen instructions to use the Movie Recommender progr
 
 
  ## Testing
-Our project was validated by using the GoogleTest framework.
+Our project was validated by using the GoogleTest framework. We used a variety of test suites that coverred constructors and important methods for the MovieData and MovieDatabase classes.

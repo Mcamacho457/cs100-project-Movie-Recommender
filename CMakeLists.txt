@@ -43,17 +43,3 @@ ADD_EXECUTABLE(runAllTests
 
 TARGET_LINK_LIBRARIES(runAllTests gtest)
 TARGET_COMPILE_DEFINITIONS(runAllTests PRIVATE gtest_disable_pthreads=ON)
-
-
-
-
-ADD_EXECUTABLE(runTests
-    tests/GoogleTest.cpp
-    lib/MovieData.cpp
-
-)
-
-
-
-TARGET_LINK_LIBRARIES(runTests gtest)
-TARGET_COMPILE_DEFINITIONS(runTests PRIVATE gtest_disable_pthreads=ON)
